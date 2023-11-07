@@ -1,0 +1,29 @@
+.label{
+    display: flex;
+    
+}
+
+.box{
+    height: 145px;
+    width: 145px;
+    position: relative;
+}
+
+.box:nth-child(1){
+    background-color: red;
+    z-index: -1;
+    
+}
+
+.box:nth-child(2){
+    background-color: violet;
+    top: 75px;
+    right: 75px;
+}
+
+.box:nth-child(3){
+background-color: green;
+z-index: -1;
+top: 145px;
+right: 145px;
+}
